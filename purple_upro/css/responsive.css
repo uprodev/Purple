@@ -1,0 +1,391 @@
+@media (max-height: 820px) {
+  .steps .line, .steps .line-2 {
+    width: 100%; }
+
+  .steps .swiper-slide-5 figure {
+    margin-bottom: 60px; }
+    .steps .swiper-slide-5 figure img {
+      height: 350px;
+      width: auto; }
+
+  .steps .swiper-slide-3 .line .input-wrap {
+    margin: 0 0 10px 10px; }
+
+  .steps .title {
+    margin-bottom: 15px; } }
+@media (max-height: 700px) {
+  .steps .line, .steps .line-2 {
+    width: 100%; }
+
+  .steps .swiper-slide-3 .line .input-wrap .text {
+    min-height: 40px; }
+
+  .steps .line-2, .steps .line {
+    margin-bottom: 20px; }
+
+  .steps .input-number {
+    height: 40px;
+    width: 120px; }
+
+  .steps .input-number .btn-count {
+    width: 32px;
+    height: 32px; }
+
+  .steps .swiper-slide-4 figure img {
+    height: 350px; }
+
+  .steps .swiper-slide-5 figure img {
+    height: 270px; } }
+@media (max-width: 1280px) {
+  .content-width {
+    width: 960px; }
+
+  .logos .item {
+    margin: 0 10px; }
+    .logos .item img {
+      height: 55px;
+      width: auto; }
+
+  .block-color .bg .img-1 {
+    -webkit-transform: translate(209%, 0);
+            transform: translate(209%, 0); }
+
+  .block-color .bg .img-2 {
+    -webkit-transform: translate(-603%, 0);
+            transform: translate(-603%, 0); }
+
+  .block-color .bg .img-3 {
+    -webkit-transform: translate(-451%, 0);
+            transform: translate(-451%, 0); }
+
+  .steps .bg .img-1 {
+    width: 190px; }
+
+  .steps .bg .img-2 {
+    width: 190px; }
+
+  .steps .bg .img-3 {
+    width: 190px; } }
+@media (max-width: 991px) {
+  .content-width {
+    width: 720px; }
+
+  .home-banner figure {
+    top: -50px;
+    left: 0; }
+
+  .logos {
+    margin-top: 30px; }
+
+  .title-item-4x .content {
+    grid-gap: 25px 25px; }
+
+  .block-color figure {
+    width: 35%; }
+
+  .block-color .text {
+    width: 60%;
+    padding: 0; }
+
+  .block-color .content {
+    padding: 40px 30px; }
+
+  .testimonials .item {
+    padding: 20px 20px 100px; }
+
+  .testimonials .item blockquote {
+    padding: 0 0 30px; }
+
+  .block-color .bg .img-1 {
+    -webkit-transform: translate(151%, 0);
+            transform: translate(151%, 0); }
+
+  .block-color .bg .img-3 {
+    -webkit-transform: translate(-344%, 0);
+            transform: translate(-344%, 0); }
+
+  .steps .swiper-slide-3 .line .input-wrap .text {
+    min-height: 40px; } }
+@media (max-width: 767px) {
+  .content-width {
+    width: 540px; }
+
+  .home-banner figure {
+    width: 100%;
+    top: 0;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    text-align: center; }
+    .home-banner figure img {
+      width: 300px;
+      margin: auto; }
+
+  .home-banner .text {
+    width: 100%;
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2; }
+
+  .home-banner {
+    padding: 0; }
+
+  .title-item-4x .content {
+    grid-template-columns: repeat(2, 1fr); }
+
+  .block-color figure {
+    width: 100%;
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    text-align: center; }
+    .block-color figure img {
+      width: 250px;
+      margin: auto; }
+
+  .block-color .text {
+    width: 100%;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1; }
+
+  .testimonials .content {
+    grid-template-columns: repeat(1, 1fr); }
+
+  .block-color .bg .img-1 {
+    -webkit-transform: translate(98%, 0);
+            transform: translate(98%, 0);
+    top: 60px; }
+
+  .block-color .bg .img-3 {
+    -webkit-transform: translate(-275%, 0);
+            transform: translate(-275%, 0); }
+
+  .steps .swiper-slide-3 .line .input-wrap .text {
+    padding: 5px 13px; }
+
+  .steps .line-2, .steps .line {
+    margin-bottom: 20px; } }
+@media (max-width: 575px) {
+  .content-width {
+    width: 100%;
+    padding: 0 17px; }
+
+  .top-line {
+    padding: 24px 0 10px; }
+
+  .home-banner figure img {
+    width: 327px; }
+
+  .home-banner h1 {
+    font-size: 40px;
+    line-height: 48px; }
+
+  .home-banner .text {
+    padding-top: 25px; }
+
+  .home-banner .sub-title {
+    font-size: 18px;
+    line-height: 22px; }
+
+  .logos {
+    margin-top: 35px; }
+
+  .title-h2 {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 36px; }
+
+  .title-item-4x {
+    padding: 24px 0 50px; }
+
+  .title-item-4x .content {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 50px 25px; }
+
+  .title-item-4x .title-h2 {
+    margin-bottom: 28px; }
+
+  .title-item-4x .item h6 {
+    font-size: 18px;
+    line-height: 22px; }
+
+  .title-item-4x .item {
+    padding: 0 20px; }
+
+  .block-color .title-h2 {
+    position: relative;
+    top: -100px;
+    margin: 0; }
+
+  .block-color {
+    padding: 75px 0 36px; }
+
+  .block-color ol li:before {
+    position: relative;
+    display: block;
+    top: 0;
+    margin-bottom: 10px;
+    right: 0;
+    font-size: 30px;
+    line-height: 50px;
+    color: rgba(255, 255, 255, 0.4); }
+
+  .block-color ol li:after {
+    display: none; }
+
+  .block-color .title-wrap {
+    margin: 0; }
+
+  .block-color ol li {
+    padding: 0;
+    margin-bottom: 24px; }
+
+  .block-color .content {
+    padding: 34px 13px; }
+
+  .block-color ol {
+    margin-top: -40px; }
+
+  .block-color ol li h6 {
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.2px; }
+
+  .block-color figure img {
+    width: 340px;
+    position: relative;
+    margin-top: 22px;
+    left: 30px; }
+
+  .block-color .bg .img-1 {
+    width: 113px;
+    top: 63%; }
+
+  .block-color .bg .img-3 {
+    width: 128px; }
+
+  .block-color .bg .img-3 {
+    bottom: 61%;
+    width: 80px;
+    -webkit-transform: translate(-260%, 0) rotate(-40deg);
+            transform: translate(-260%, 0) rotate(-40deg); }
+
+  .testimonials .title-h2 {
+    margin-bottom: 32px; }
+
+  .testimonials .item {
+    padding: 39px 25px 100px; }
+
+  .testimonials .content {
+    grid-gap: 40px 25px; }
+
+  .testimonials .item:after {
+    right: 25px; }
+
+  .testimonials .btn-wrap {
+    margin-top: 60px; }
+
+  footer .text {
+    max-width: calc(100% - 210px); }
+    footer .text p {
+      font-size: 13px;
+      font-weight: 300;
+      line-height: 16px;
+      letter-spacing: 0em; }
+
+  .testimonials {
+    padding: 30px 0 60px; }
+
+  .steps .prev-btn {
+    top: 28px;
+    right: 15px; }
+
+  .steps .sub-title {
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 20px; }
+
+  .steps h1, .steps h2 {
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 31px;
+    margin-bottom: 64px; }
+
+  .steps .input-wrap-big {
+    margin-bottom: 60px;
+    text-align: center; }
+    .steps .input-wrap-big input {
+      font-size: 26px;
+      font-weight: 400;
+      line-height: 40px;
+      letter-spacing: 0px;
+      width: 100%; }
+
+  .steps .bg .desk {
+    display: none; }
+  .steps .bg .mob {
+    display: inline-block; }
+  .steps .bg .img-4 {
+    top: 85px;
+    left: 0; }
+  .steps .bg .img-5 {
+    top: 40%;
+    right: 0; }
+  .steps .bg .img-6 {
+    left: 40px;
+    bottom: 0; }
+
+  .steps .swiper-slide .content-width {
+    padding-left: 17px;
+    padding-right: 17px; }
+
+  .steps .swiper-slide-3 .line .input-wrap .text {
+    min-height: 50px; }
+
+  .steps .title {
+    font-size: 18px;
+    line-height: 22px; }
+
+  .steps .swiper-slide-4 .text {
+    width: 100%;
+    margin-bottom: 30px; }
+
+  .steps .swiper-slide-4 .text .sub-title {
+    text-align: center; }
+
+  .steps .swiper-slide-4 .text h2 {
+    margin-bottom: 50px;
+    text-align: center; }
+
+  .steps .swiper-slide-4 .text .btn-wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+
+  .steps .swiper-slide-4 figure {
+    width: 100%;
+    text-align: center; }
+    .steps .swiper-slide-4 figure img {
+      height: 318px; }
+
+  .steps .title-final {
+    font-size: 30px;
+    line-height: 36px; }
+
+  .steps .swiper-slide-5 figure img {
+    width: 100%;
+    height: auto; }
+
+  .swiper-slide-4 .btn-wrap:after {
+    right: auto;
+    left: 50%;
+    margin-left: -90px; }
+
+  .steps .input-wrap-tel input {
+    text-align: center; } }
+
+/*# sourceMappingURL=responsive.css.map */
