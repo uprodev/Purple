@@ -322,6 +322,21 @@
     line-height: 31px;
     margin-bottom: 64px;
   }
+
+  .steps{
+    .input-wrap-big{
+      margin-bottom: 60px;
+      text-align: center;
+
+      input{
+        font-size: 26px;
+        font-weight: 400;
+        line-height: 40px;
+        letter-spacing: 0px;
+        width: 100%;
+      }
+    }
+  }
   .steps .bg{
     .desk{
       display: none;
@@ -382,5 +397,13 @@
   .steps .swiper-slide-5 figure img{
     width: 100%;
     height: auto;
+  }
+  .swiper-slide-4 .btn-wrap:after{
+    right: auto;
+    left: 50%;
+    margin-left: -90px;
+  }
+  .steps .input-wrap-tel input {
+    text-align: center;
   }
 }
