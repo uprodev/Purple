@@ -7,6 +7,8 @@ jQuery(document).ready(function ($) {
     touchRatio: 1,
     noSwiping: false,
     autoHeight: true,
+    preventClicks :true,
+    a11y: false,
     pagination: {
       el: ".step-pagination",
       type: "progressbar",
