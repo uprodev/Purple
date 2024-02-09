@@ -7,6 +7,8 @@ jQuery(document).ready(function ($) {
     touchRatio: 1,
     noSwiping: false,
     autoHeight: true,
+    preventClicks :true,
+    a11y: false,
     pagination: {
       el: ".step-pagination",
       type: "progressbar",
@@ -38,7 +40,7 @@ jQuery(document).ready(function ($) {
   //next slider if
   $('.line input').on('change', function(){
     let item1 = $('.line-1').find('input:checked'),
-        item2 = $('.line-3').find('input:checked');
+    item2 = $('.line-3').find('input:checked');
 
     if(item1.length >0 && item2.length > 0){
       setTimeout(function() {
@@ -107,11 +109,11 @@ jQuery(document).ready(function ($) {
         emailtld: true
       },
     },
-    messages: {
+    /*messages: {
       email:{
         minlength: "Please enter your email",
       },
-    }
+    }*/
   });
 
 
@@ -122,4 +124,12 @@ jQuery(document).ready(function ($) {
       $(this).removeClass('is-go-next')
     }
   });
+
+
+  document.addEventListener( 'wpcf7mailsent', function( event ) {
+    if ('74' == event.detail.contactFormId) {
+      swiperStep.slideNext();
+    }
+  }, false );
+
 });

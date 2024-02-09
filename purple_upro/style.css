@@ -2,3 +2,23 @@
 Theme Name: Purple
 */
 
+
+.steps .input-number .btn-count:hover{
+  background: #734ee1;
+}
+
+.steps{
+  overflow-x: hidden;
+}
+
+button.btn-default{
+  color: #fff;
+}
+
+label.error{
+  display: none!important;
+}
+
+.wpcf7-response-output{
+  display: none!important;
+}
