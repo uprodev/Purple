@@ -124,4 +124,28 @@ jQuery(document).ready(function ($) {
       $(this).removeClass('is-go-next')
     }
   });
+
+  var animation1 = bodymovin.loadAnimation({
+    container: document.getElementById('anim-01'),
+    renderer: 'svg',
+    loop: true,
+    autoplay: true,
+    path: 'lottie/quiz-1.json',
+  });
+
+  var animation2 = bodymovin.loadAnimation({
+    container: document.getElementById('anim-02'),
+    renderer: 'svg',
+    loop: true,
+    autoplay: true,
+    path: 'lottie/mail-1.json',
+  });
+
+  var animation3 = bodymovin.loadAnimation({
+    container: document.getElementById('anim-03'),
+    renderer: 'svg',
+    loop: true,
+    autoplay: true,
+    path: 'lottie/mail-2.json',
+  });
 });
