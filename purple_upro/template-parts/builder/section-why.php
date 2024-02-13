@@ -27,11 +27,13 @@ if($args['row']):
 					</div>
 				<?php endif ?>
 				
-				<?php if ($image): ?>
-					<figure>
+				<figure>
+					<?php if ($image): ?>
 						<?= wp_get_attachment_image($image['ID'], 'full') ?>
-					</figure>
-				<?php endif ?>
+					<?php else: ?>
+						<div id="anim-03"></div>
+					<?php endif ?>
+				</figure>
 				
 				<?php if ($items): ?>
 					<div class="text">

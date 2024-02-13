@@ -62,6 +62,28 @@ jQuery(document).ready(function ($) {
 
   });
 
+  swiperStep.on('slideChange', function () {
+    setTimeout(function() {
+      if($('.swiper-slide-2').hasClass('swiper-slide-active')){
+
+        $('.steps .prev-btn').addClass('is-active');
+
+      }
+    }, 710);
+
+  });
+
+  swiperStep.on('slideChange', function () {
+    setTimeout(function() {
+      if($('.swiper-slide-1').hasClass('swiper-slide-active')){
+
+        $('.steps .prev-btn').removeClass('is-active');
+
+      }
+    }, 710);
+
+  });
+
 
   $('.marquee').marquee({
     duration: 35000,
@@ -126,10 +148,34 @@ jQuery(document).ready(function ($) {
   });
 
 
-  document.addEventListener( 'wpcf7mailsent', function( event ) {
+  /*document.addEventListener( 'wpcf7mailsent', function( event ) {
     if ('74' == event.detail.contactFormId) {
       swiperStep.slideNext();
     }
-  }, false );
+  }, false );*/
+
+  var animation1 = bodymovin.loadAnimation({
+    container: document.getElementById('anim-01'),
+    renderer: 'svg',
+    loop: true,
+    autoplay: true,
+    path: '/wp-content/themes/purple_upro/lottie/quiz-1.json',
+  });
+
+  var animation2 = bodymovin.loadAnimation({
+    container: document.getElementById('anim-02'),
+    renderer: 'svg',
+    loop: true,
+    autoplay: true,
+    path: '/wp-content/themes/purple_upro/lottie/mail-1.json',
+  });
+
+  var animation3 = bodymovin.loadAnimation({
+    container: document.getElementById('anim-03'),
+    renderer: 'svg',
+    loop: true,
+    autoplay: true,
+    path: '/wp-content/themes/purple_upro/lottie/mail-2.json',
+  });
 
 });

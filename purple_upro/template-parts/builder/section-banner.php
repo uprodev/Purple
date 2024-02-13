@@ -28,11 +28,15 @@ if($args['row']):
 
 				</div>
 
-				<?php if ($image): ?>
-					<figure>
+				<figure>
+
+					<?php if ($image): ?>
 						<?= wp_get_attachment_image($image['ID'], 'full') ?>
-					</figure>
-				<?php endif ?>
+					<?php else: ?>
+						<div id="anim-02"></div>
+					<?php endif ?>
+
+				</figure>
 				
 			</div>
 		</div>

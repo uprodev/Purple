@@ -19,6 +19,7 @@ function load_style_script(){
 	wp_enqueue_script('my-nice-select', get_stylesheet_directory_uri() . '/js/jquery.nice-select.min.js', array(), false, true);
 	wp_enqueue_script('my-marquee', get_stylesheet_directory_uri() . '/js/jquery.marquee.min.js', array(), false, true);
 	wp_enqueue_script('my-validate', get_stylesheet_directory_uri() . '/js/jquery.validate.min.js', array(), false, true);
+	wp_enqueue_script('my-lottie', get_stylesheet_directory_uri() . '/js/lottie.min.js', array(), false, true);
 	wp_enqueue_script('my-script', get_stylesheet_directory_uri() . '/js/script.js', array(), time(), true);
 	wp_enqueue_script('my-add', get_stylesheet_directory_uri() . '/js/add.js', array(), time(), true);
 }

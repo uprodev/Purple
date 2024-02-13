@@ -7,13 +7,18 @@ if($args['row']):
 		<section class="logos">
 			<div class="content marquee">
 
-				<?php foreach($gallery as $image): ?>
+				<?php 
+				for ($i = 0; $i < 6; $i++) { ?>
 
-					<div class="item">
-						<?= wp_get_attachment_image($image['ID'], 'full') ?>
-					</div>
+					<?php foreach($gallery as $image): ?>
 
-				<?php endforeach; ?>
+						<div class="item">
+							<?= wp_get_attachment_image($image['ID'], 'full') ?>
+						</div>
+
+					<?php endforeach; ?>
+
+				<?php } ?>
 
 			</div>
 		</section>
